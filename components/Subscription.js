@@ -17,8 +17,8 @@ const Subscription = () => {
 
     }, [])
     return (
-        <div className='container mx-auto px-8 bg-purple-500 text-white text-xs text-center font-bold my-8 py-4 '>
-            <h1 className='text-xl mb-2'>Subscribe to our mailing list.</h1>
+        <div className='container mx-auto px-8 bg-purple-500 text-white text-xs text-center font-bold py-12 '>
+            <h1 className=' text-lg md:text-2xl mb-4 italic md:uppercase'>Subscribe to our mailing list.</h1>
             <form onSubmit={handleSubmit}>
                 <input className='px-4 py-2 outline-none text-gray-800' type="email" placeholder="example@gmail.com" value={sub} onChange={e => setSub(e.target.value)} />
             </form>
